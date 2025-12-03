@@ -1,0 +1,46 @@
+# Android/Gradle gitignore
+
+# Gradle
+.gradle/
+build/
+app/build/
+
+# Local configuration files
+local.properties
+
+# Log files
+*.log
+
+# Android Studio
+.idea/
+*.iml
+
+# Keystore files (uncomment if you keep debug/release keystores locally)
+# *.jks
+# *.keystore
+
+# Crashlytics/Firebase
+app/src/**/crashlytics/*.properties
+
+# Generated files
+captures/
+.externalNativeBuild/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
